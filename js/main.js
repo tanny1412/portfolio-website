@@ -49,6 +49,14 @@
         ]
       }
     ],
+    certifications: [
+      {
+        title: "Advanced ML Certification",
+        org: "Institute of Data",
+        issued: "2024",
+        link: "https://example.com/cert"
+      }
+    ],
     skills: [
       "Python", "PyTorch", "TensorFlow", "scikit-learn", "XGBoost",
       "LangChain", "OpenAI API", "LlamaIndex", "HuggingFace",
@@ -221,6 +229,33 @@
         expRow.append(card);
       });
       if (expSection) expSection.style.display = items.length ? '' : 'none';
+    }
+
+    const certSection = qs('#certifications');
+    const certList = qs('#certList');
+    if (certList) {
+      certList.innerHTML = '';
+      const certs = c.certifications || [];
+      if (!certs.length && certSection) certSection.style.display = 'none';
+      certs.forEach(cert => {
+        const card = el('article', { class: 'cert-card' });
+        card.append(
+          el('div', { class: 'cert-header' }, [
+            el('span', { class: 'cert-title' }, [cert.title]),
+            cert.issued ? el('span', { class: 'cert-issued' }, [cert.issued]) : ''
+          ].filter(Boolean)),
+          el('div', { class: 'cert-meta' }, [
+            cert.org ? el('span', { class: 'cert-org' }, [cert.org]) : '',
+            cert.id ? el('span', { class: 'cert-id' }, [`ID ${cert.id}`]) : '',
+            cert.skills ? el('span', { class: 'cert-skill' }, [cert.skills]) : ''
+          ].filter(Boolean))
+        );
+        if (cert.link) {
+          card.append(el('a', { class: 'cert-link', href: cert.link, target: '_blank', rel: 'noopener', 'data-click-sfx': '' }, ['View credential']));
+        }
+        certList.append(card);
+      });
+      if (certSection) certSection.style.display = certs.length ? '' : 'none';
     }
 
     const skills = qs('#skillsList');

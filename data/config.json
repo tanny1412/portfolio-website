@@ -75,6 +75,87 @@
       ]
     }
   ],
+  "certifications": [
+    {
+      "title": "Evaluating AI Agents",
+      "org": "DeepLearning.AI",
+      "issued": "Aug 2025",
+      "skills": "Generative AI",
+      "link": "https://learn.deeplearning.ai/accomplishments/dc83905c-4e09-4213-ace7-c3c5fb8607fd?usp=sharing"
+    },
+    {
+      "title": "Long-Term Agentic Memory With LangGraph",
+      "org": "DeepLearning.AI",
+      "issued": "Aug 2025",
+      "link": "https://learn.deeplearning.ai/accomplishments/41832810-c500-4a61-aeb3-c0e302f115f7"
+    },
+    {
+      "title": "AI Agents Fundamentals",
+      "org": "Hugging Face",
+      "issued": "Jul 2025",
+      "id": "Tanny1412",
+      "link": "https://cas-bridge.xethub.hf.co/xet-bridge-us/67a47037749ea2c4b9fafd4b/e9bb68e520589a046c0736db92c887a996762e9e1fb3f2d7ee7aa9dd23a5a959?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20250929%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250929T220127Z&X-Amz-Expires=3600&X-Amz-Signature=b2cfa17874752af02666c0037a8086bb695470abe3a4d2b3df98a24b377d34c1&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=646f363f8180f35af535a3dd&response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025-07-25.png%3B+filename%3D%222025-07-25.png%22%3B&response-content-type=image%2Fpng&x-id=GetObject&Expires=1759186887&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1OTE4Njg4N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2E0NzAzNzc0OWVhMmM0YjlmYWZkNGIvZTliYjY4ZTUyMDU4OWEwNDZjMDczNmRiOTJjODg3YTk5Njc2MmU5ZTFmYjNmMmQ3ZWU3YWE5ZGQyM2E1YTk1OSoifV19&Signature=tv3~nWW9OShA-LDQvNb92-W-Xq-mVk2H2j4NtHHf6rnMN8BPhW0jqwGBe9BdCYF1~5Prh82IkNRjgGwJcHrPiPBUeBZiePhYT0wHwLPqRPHq~8~MD-gdQ5XRxvIKEEyX2LRxv5sgjHRhsjyxlcLxK5BzUBv4JUy1Ir0c7CVGFYMQ8GeE1Ev50mW3Gorm74ZLjI7d87O4iPGl1IB0Qu9ZCsJDbQsCDW6qb9R4KtmAuxsvH4QpvIoP1SQHvUHoiHnSCCU7PClmk2cqNvsUYH9uKPrNFNeWtP-s1qx8iw5e75YXmUYoAs3AqD4s-vmnJwl1zhyW-e~20Cl8wBU52TwR4g__&Key-Pair-Id=K2L8F4GPSG1IFC"
+    },
+    {
+      "title": "Post-Training of LLMs",
+      "org": "DeepLearning.AI",
+      "issued": "Jul 2025",
+      "skills": "Large Language Models (LLM)",
+      "link": "https://learn.deeplearning.ai/accomplishments/4b3ab917-84c1-492c-8113-89324fc00ee0?usp=sharing"
+    },
+    {
+      "title": "Large Language Models (LLMs), Transformers & GPT A-Z",
+      "org": "SuperDataScience",
+      "issued": "Feb 2024",
+      "id": "44dcfee4-e558-424f-b566-eb49c80acd84",
+      "skills": "Large Language Models (LLM)",
+      "link": "https://credsverse.com/credentials/44dcfee4-e558-424f-b566-eb49c80acd84"
+    },
+    {
+      "title": "Certificate of Completion — A/B Testing in Python",
+      "org": "365 Data Science",
+      "issued": "Nov 2023",
+      "id": "CC-74B079C786",
+      "link": "https://learn.365datascience.com/certificates/CC-74B079C786/"
+    },
+    {
+      "title": "Deep Learning A-Z™: Hands-On Artificial Neural Networks",
+      "org": "Udemy",
+      "issued": "Jan 2022",
+      "link": "https://www.udemy.com/certificate/UC-8a84163f-d2ea-4ad3-a37f-890cd090b516/"
+    },
+    {
+      "title": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+      "org": "Udemy",
+      "issued": "Oct 2021",
+      "link": "https://www.udemy.com/certificate/UC-529ae511-7fa0-4c6d-af0c-b3186fc06822/"
+    },
+    {
+      "title": "IBM Data Science Professional Certificate",
+      "org": "IBM",
+      "issued": "May 2021",
+      "id": "8RMNPCZ2DKBE",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/8RMNPCZ2DKBE"
+    },
+    {
+      "title": "Google Data Analytics Professional Certificate",
+      "org": "Google",
+      "issued": "Apr 2021",
+      "link": "https://www.coursera.org/account/accomplishments/professional-cert/FWBM2NHNGFUM"
+    },
+    {
+      "title": "IIIT Bangalore — Data Toolkit",
+      "org": "IIIT Bangalore",
+      "issued": "Aug 2021",
+      "link": "https://images.credential.net/embed/186xv3vy_1745926843971.png"
+    },
+    {
+      "title": "IIIT Bangalore — Prep Course",
+      "org": "IIIT Bangalore",
+      "issued": "Aug 2021",
+      "link": "https://images.credential.net/embed/i81lq6gj_1745926843971.png"
+    }
+  ],
   "skills": [
     "Python", "SQL", "Unix Shell", "PyTorch", "TensorFlow", "Scikit-Learn", "Pandas", "LangChain", "LangGraph", "CrewAI", "OpenAI API", "HuggingFace", "Qdrant", "Pydantic", "FastAPI", "Streamlit", "Airflow", "Kafka", "dbt", "Apache Spark", "Databricks", "Snowflake", "AWS", "Docker", "Kubernetes", "Terraform", "Ansible", "CI/CD", "MLflow", "DVC", "Prometheus", "Grafana", "Tableau", "MS Excel"
   ],

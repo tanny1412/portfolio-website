@@ -145,6 +145,19 @@ body {
 .card-actions a { flex: 1; text-align: center; text-decoration: none; padding: 8px 10px; border: 1px solid var(--border); border-radius: 10px; color: var(--text); }
 .card-actions a:hover { background: color-mix(in hsl, var(--card), var(--bg-alt) 12%); }
 
+/* Certifications */
+.cert-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.cert-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px; display: grid; gap: 10px; position: relative; overflow: hidden; }
+.cert-card::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, color-mix(in hsl, var(--brand), transparent 80%), transparent 85%); opacity: .6; pointer-events: none; }
+.cert-card > * { position: relative; }
+.cert-header { display: grid; gap: 4px; }
+.cert-title { font-weight: 600; font-size: 15px; line-height: 1.4; }
+.cert-issued { font-size: 12px; color: var(--text-dim); }
+.cert-meta { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; color: var(--text-dim); }
+.cert-meta span { background: color-mix(in hsl, var(--card), var(--bg-alt) 16%); padding: 4px 8px; border-radius: 999px; border: 1px solid var(--border); }
+.cert-link { font-size: 13px; text-decoration: none; color: var(--brand); font-weight: 600; }
+.cert-link:hover { text-decoration: underline; }
+
 .about-body { display: grid; gap: 18px; max-width: 760px; }
 .about-body p { font-size: 1.05rem; line-height: 1.68; }
 .about-body .bullets { grid-template-columns: 1fr; gap: 10px; }
