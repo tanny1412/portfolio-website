@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tanish Kandivlikar — Portfolio</title>
+    <meta name="description" content="Portfolio of Data Scientist and GenAI Engineer — projects, publications, and contact." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#hero" class="brand" data-click-sfx>
+          <span id="brandName">Your Name</span>
+        </a>
+        <nav class="site-nav">
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" data-click-sfx>
+            <span></span><span></span><span></span>
+          </button>
+          <ul id="navList">
+            <li><a href="#projects" data-click-sfx>Projects</a></li>
+            <li><a href="#about" data-click-sfx>About</a></li>
+            <li><a href="#skills" data-click-sfx>Skills</a></li>
+            <li><a href="#contact" data-click-sfx>Contact</a></li>
+          </ul>
+        </nav>
+        <div class="actions">
+          <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme" data-click-sfx>
+            <span class="icon-sun"></span>
+          </button>
+          <a id="resumeLink" class="btn btn-small" href="#" target="_blank" rel="noopener" data-click-sfx>Resume</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 id="heroTitle">Data Scientist & GenAI Engineer</h1>
+            <p id="heroSubtitle" class="subtitle">I build end‑to‑end machine learning and generative AI systems that create measurable business impact.</p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn" data-click-sfx>Explore Projects</a>
+              <a id="resumeButton" class="btn btn-ghost" href="#" target="_blank" rel="noopener" data-click-sfx>Resume</a>
+            </div>
+            <ul class="socials" id="socials">
+              <!-- Populated by config -->
+            </ul>
+          </div>
+          <div class="hero-photo">
+            <div class="photo-frame">
+              <!-- Replace the src with your photo at assets/profile.jpg -->
+              <img id="heroPhoto" src="assets/profile.jpg" alt="Professional headshot" onerror="this.classList.add('missing')" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <div class="filters">
+              <input id="searchInput" class="input" type="search" placeholder="Search projects…" aria-label="Search projects" />
+              <select id="tagFilter" class="input" aria-label="Filter by tag">
+                <option value="">All tags</option>
+              </select>
+              <select id="sortSelect" class="input" aria-label="Sort projects">
+                <option value="recent">Most recent</option>
+                <option value="alpha">A → Z</option>
+                <option value="stars">Most notable</option>
+              </select>
+            </div>
+          </div>
+          <div id="projectsGrid" class="projects-grid">
+            <!-- Cards injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section alt">
+        <div class="container">
+          <h2>About</h2>
+          <div class="about-body">
+            <p id="aboutText">I specialize in applied machine learning, LLM systems, and data engineering. I combine strong fundamentals with pragmatic execution to deliver production-ready solutions across NLP, vision, and time series.</p>
+            <ul class="bullets" id="highlights">
+              <!-- populated -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="timeline compact" id="educationList">
+            <!-- populated -->
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="experience-row" id="experienceRow">
+            <!-- populated -->
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul class="skill-chips" id="skillsList">
+            <!-- populated -->
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
+        <div class="container">
+          <div class="contact-card">
+            <div>
+              <h2>Contact</h2>
+              <p id="contactText">Open to collaborations, research, and roles in data science and generative AI. Let’s build something meaningful.</p>
+              <div class="contact-actions">
+                <a id="emailLink" class="btn" href="#" data-click-sfx>Email Me</a>
+                <a id="linkedinLink" class="btn btn-ghost" href="#" target="_blank" rel="noopener" data-click-sfx>LinkedIn</a>
+              </div>
+            </div>
+            <div class="contact-meta">
+              <div id="phoneRow" style="display:none"><span class="meta-label">Phone</span><a id="phoneLink" href="#" data-click-sfx>+1 401-636-3552</a></div>
+              <div><span class="meta-label">Location</span><span id="locationText">Your City, Country</span></div>
+              <div><span class="meta-label">Response time</span><span>Usually within 24 hours</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© <span id="year"></span> <span id="footerName">Your Name</span></span>
+        <span>Built with care — <a href="#hero" data-click-sfx>back to top</a></span>
+      </div>
+    </footer>
+
+    <div id="projectModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-content" role="document">
+        <button class="icon-btn modal-close" aria-label="Close" data-close-modal data-click-sfx>×</button>
+        <div class="modal-body" id="modalBody">
+          <!-- populated -->
+        </div>
+      </div>
+    </div>
+
+    <script src="js/sfx.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  
+</html>

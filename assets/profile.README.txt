@@ -1,0 +1,12 @@
+Add your professional headshot at:
+
+  assets/profile.jpg
+
+Recommended:
+- Aspect ratio near 4:5
+- At least 1200px height (e.g., 960×1200)
+- Centered subject, neutral background
+- JPG or PNG named exactly: profile.jpg
+
+The hero will auto-apply a soft gradient and blend overlay.
+

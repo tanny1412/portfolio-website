@@ -1,0 +1,375 @@
+[
+  {
+    "title": "Fine-Tuning GPT-OSS 20B for Multilingual Reasoning",
+    "description": "Adapted OpenAI's GPT-OSS 20B with LoRA and 4-bit quantization via Unsloth, enabling multilingual reasoning on a single NVIDIA A40 while trimming GPU memory overhead by ~70%.",
+    "tags": [
+      "GenAI",
+      "LLM",
+      "Fine-Tuning"
+    ],
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Unsloth",
+      "LoRA",
+      "Quantization"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/finetuning-gpt-20b-for-multilngual-reasoning",
+    "demo": "",
+    "stars": 5,
+    "date": "2024-07-01",
+    "featured": true
+  },
+  {
+    "title": "Criminal Procedure Assistant \u2014 AI Legal Chatbot",
+    "description": "Production-grade RAG chatbot answering Massachusetts criminal procedure questions with IRAC-structured responses, hybrid retrieval, reranking, and guardrails for legal reliability.",
+    "tags": [
+      "RAG",
+      "LegalTech",
+      "Multi-Agent"
+    ],
+    "tech": [
+      "LangChain",
+      "OpenAI GPT-4",
+      "Pinecone",
+      "FastAPI",
+      "Docker",
+      "AWS"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/Assignement-7---Capstone-Project-Deploying-Generative-AI-Application",
+    "demo": "",
+    "stars": 4,
+    "date": "2024-04-01",
+    "featured": true
+  },
+  {
+    "title": "Feature Store Credit Scoring Platform",
+    "description": "Built a real-time loan approval prediction system backed by Feast feature store for consistent, low-latency feature delivery across training and production pipelines.",
+    "tags": [
+      "MLOps",
+      "Feature Store",
+      "Credit Scoring"
+    ],
+    "tech": [
+      "Python",
+      "Feast",
+      "FastAPI",
+      "Kafka",
+      "Docker"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/feature-store-credit-scoring",
+    "demo": "",
+    "stars": 3,
+    "date": "2023-08-01",
+    "featured": false
+  },
+  {
+    "title": "Meeting Minutes Automation Toolkit",
+    "description": "Multi-agent GenAI workflow that ingests meeting audio, transcribes, summarizes, extracts action items, and drafts follow-up emails using orchestrated YAML pipelines.",
+    "tags": [
+      "Automation",
+      "GenAI",
+      "Productivity"
+    ],
+    "tech": [
+      "OpenAI Whisper",
+      "CrewAI",
+      "pydub",
+      "Pydantic",
+      "Gmail API"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/meeting_minutes_crewai",
+    "demo": "",
+    "stars": 4,
+    "date": "2023-11-01",
+    "featured": false
+  },
+  {
+    "title": "AI Nutrition Assistant",
+    "description": "Agentic RAG nutrition coach with persistent user memory, hybrid retrieval, and Streamlit UI for natural, goal-driven coaching.",
+    "tags": [
+      "GenAI",
+      "RAG",
+      "Agentic"
+    ],
+    "tech": [
+      "LangGraph",
+      "LangChain",
+      "FastAPI",
+      "Streamlit",
+      "FAISS",
+      "SQLAlchemy"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/ai-nutrition-app",
+    "demo": "",
+    "stars": 4,
+    "date": "2024-03-01",
+    "featured": true
+  },
+  {
+    "title": "Kubeflow + KServe MLOps Pipeline",
+    "description": "End-to-end MLOps workflow on AWS EC2 using Kubeflow Pipelines and KServe to train, package, and serve scikit-learn models via Istio ingress.",
+    "tags": [
+      "MLOps",
+      "Kubeflow",
+      "KServe"
+    ],
+    "tech": [
+      "Kubeflow",
+      "KServe",
+      "AWS EC2",
+      "scikit-learn",
+      "S3",
+      "Istio"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/kubeflow-kserve-mlops-pipeline",
+    "demo": "",
+    "stars": 3,
+    "date": "2023-10-01",
+    "featured": false
+  },
+  {
+    "title": "Modern ELT Pipeline",
+    "description": "dbt + Snowflake + Airflow pipeline transforming TPCH analytics data with orchestrated, modular ELT workflows.",
+    "tags": [
+      "Data Engineering",
+      "ELT"
+    ],
+    "tech": [
+      "dbt",
+      "Snowflake",
+      "Apache Airflow",
+      "Python"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/modern-elt-pipeline",
+    "demo": "",
+    "stars": 3,
+    "date": "2023-09-01",
+    "featured": false
+  },
+  {
+    "title": "Spotify Skip Predictor",
+    "description": "Predictive analytics tool forecasting track skips with SMOTE-balanced training, optimized XGBoost/Random Forest models, FastAPI inference, and Streamlit UX.",
+    "tags": [
+      "Predictive Modeling",
+      "Recommendation"
+    ],
+    "tech": [
+      "Python",
+      "XGBoost",
+      "Random Forest",
+      "SMOTE",
+      "FastAPI",
+      "Streamlit"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/SpotifySkip",
+    "demo": "",
+    "stars": 3,
+    "date": "2023-05-01",
+    "featured": false
+  },
+  {
+    "title": "2048 Game on AWS EKS",
+    "description": "Deployed the 2048 web app on Amazon EKS with Fargate-backed pods, ALB ingress, and IAM roles via IRSA for secure, serverless scaling.",
+    "tags": [
+      "Cloud",
+      "Kubernetes",
+      "AWS"
+    ],
+    "tech": [
+      "Amazon EKS",
+      "AWS Fargate",
+      "ALB Ingress",
+      "IAM IRSA",
+      "Kubernetes"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/eks-2048-deployment",
+    "demo": "",
+    "stars": 2,
+    "date": "2023-03-01",
+    "featured": false
+  },
+  {
+    "title": "NYC Taxi Duration MLOps Pipeline",
+    "description": "End-to-end ML system predicting NYC taxi trip durations with DVC-managed data pipeline, MLflow experiment tracking, and Dockerized FastAPI inference service.",
+    "tags": [
+      "MLOps",
+      "Regression",
+      "Data Pipeline"
+    ],
+    "tech": [
+      "Python",
+      "DVC",
+      "MLflow",
+      "XGBoost",
+      "FastAPI",
+      "Docker"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/nyc-taxi-duration-mlops",
+    "demo": "",
+    "stars": 3,
+    "date": "2023-02-01",
+    "featured": false
+  },
+  {
+    "title": "IPL Teams Performance Dashboard",
+    "description": "Interactive Tableau dashboard visualizing IPL team performance across seasons with drill-down filters, trend charts, and printable summaries.",
+    "tags": [
+      "Data Viz",
+      "Analytics",
+      "Tableau"
+    ],
+    "tech": [
+      "Tableau",
+      "SQL",
+      "Excel"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/IPLdataviz",
+    "demo": "",
+    "stars": 2,
+    "date": "2022-11-01",
+    "featured": false
+  },
+  {
+    "title": "GANs on CIFAR-10",
+    "description": "TensorFlow GAN assignment covering minimax objectives, mode collapse, and an implemented generator/discriminator pipeline that trains on CIFAR-10 to synthesize realistic images.",
+    "tags": [
+      "Deep Learning",
+      "GAN",
+      "TensorFlow"
+    ],
+    "tech": [
+      "TensorFlow",
+      "Python",
+      "Keras",
+      "CIFAR-10"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/GENAI/blob/main/Assignmet4/Assignment4_Generative_Adversarial_Networks.ipynb",
+    "demo": "",
+    "stars": 1,
+    "date": "2022-10-01",
+    "featured": false
+  },
+  {
+    "title": "Variational Autoencoders on CIFAR-10 & Beyond",
+    "description": "Compared fully connected vs convolutional VAEs on CIFAR-10, then extended to Fashion-MNIST and CelebA with latent interpolations showcasing smooth, realistic generations.",
+    "tags": [
+      "Deep Learning",
+      "VAE",
+      "Representation Learning"
+    ],
+    "tech": [
+      "TensorFlow",
+      "Keras",
+      "Python",
+      "CIFAR-10",
+      "Fashion-MNIST",
+      "CelebA"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/GENAI/blob/main/Tanish_assign3_variational_autoencoder.ipynb",
+    "demo": "",
+    "stars": 1,
+    "date": "2022-09-01",
+    "featured": false
+  },
+  {
+    "title": "IMDb Movie Analytics & Visualization",
+    "description": "Exploratory data analysis of the top 100 IMDb movies from the past decade with demographic rating breakdowns, revenue stats, and visual storytelling in Jupyter.",
+    "tags": [
+      "Data Analysis",
+      "Visualization",
+      "EDA"
+    ],
+    "tech": [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Jupyter"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/imdb-movie-viz",
+    "demo": "",
+    "stars": 1,
+    "date": "2022-07-01",
+    "featured": false
+  },
+  {
+    "title": "NGO Aid Allocation Strategy",
+    "description": "Clustered 167 countries by socio-economic indicators using K-Means and hierarchical methods to prioritize aid toward least-developed nations like Sierra Leone and Haiti.",
+    "tags": [
+      "Clustering",
+      "Analytics",
+      "Aid"
+    ],
+    "tech": [
+      "Python",
+      "Pandas",
+      "Scikit-Learn",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/ngo_aid_strategy",
+    "demo": "",
+    "stars": 1,
+    "date": "2022-06-01",
+    "featured": false
+  },
+  {
+    "title": "Retail Market Basket Analytics",
+    "description": "Cleansed multi-table retail dataset, engineered features, and visualized purchasing patterns in Tableau to surface actionable cross-sell insights for market basket analysis.",
+    "tags": [
+      "Analytics",
+      "Market Basket",
+      "Retail"
+    ],
+    "tech": [
+      "Python",
+      "Pandas",
+      "Tableau",
+      "Excel"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/Marketing_Analytics",
+    "demo": "",
+    "stars": 1,
+    "date": "2022-05-01",
+    "featured": false
+  },
+  {
+    "title": "Lead Conversion Scoring for X Education",
+    "description": "Logistic regression pipeline that cleaned and engineered lead data, calibrated probability thresholds, and delivered 81% accuracy to target 80% conversion identification.",
+    "tags": [
+      "Predictive Modeling",
+      "Logistic Regression",
+      "Marketing"
+    ],
+    "tech": [
+      "Python",
+      "Pandas",
+      "Scikit-Learn",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "image": "assets/no-image.svg",
+    "github": "https://github.com/tanny1412/lead-categorization",
+    "demo": "",
+    "stars": 1,
+    "date": "2022-04-01",
+    "featured": false
+  }
+]

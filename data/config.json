@@ -1,0 +1,88 @@
+{
+  "name": "Tanish Kandivlikar",
+  "role": "Data Scientist & AI Engineer",
+  "location": "Rhode Island",
+  "email": "tkandivlikar@wpi.edu",
+  "github": "https://github.com/tanny1412",
+  "linkedin": "https://www.linkedin.com/in/tanish14/",
+  "twitter": "",
+  "resume_url": "assets/resume.pdf",
+  "hero_tagline": "Data Scientist / AI Engineer",
+  "hero_subtitle": "MS Data Science student at WPI building production-grade machine learning and generative AI systems for legal, enterprise, and analytics domains.",
+  "about_text": "I’m a data scientist and AI engineer with experience shipping GenAI products, predictive analytics, and ML platforms across legal tech and marketing. My background spans WPI’s MS in Data Science, IIIT Bangalore’s PG Diploma, and a Bachelor’s in Electronics. I partner with cross-functional teams to design resilient data pipelines, orchestrate multi-agent workflows, and land measurable wins in production.",
+  "highlights": [
+    "Delivered a legal GenAI chatbot on Amazon Bedrock that lifted response accuracy by 30% across complex bankruptcy queries.",
+    "Optimized GPT-OSS 20B fine-tuning with LoRA + 4-bit quantization, cutting GPU memory needs by ~70% on A40 hardware.",
+    "Automated meeting intelligence with multi-agent pipelines covering transcription, summarization, sentiment, and email drafts.",
+    "Drove 15% efficiency gain at Purplle.com by building Tableau dashboards and SQL analyses for campaign planning."
+  ],
+  "education": [
+    {
+      "school": "Worcester Polytechnic Institute",
+      "degree": "M.S. Data Science",
+      "duration": "Aug 2023 – May 2025",
+      "location": "Worcester, MA",
+      "focus": "Graduate curriculum spanning advanced machine learning, generative AI, and data engineering.",
+      "highlights": [
+        "Eligible for OPT upon graduation in May 2025.",
+        "Focus areas: statistical learning, deep learning, big data visualization."
+      ]
+    },
+    {
+      "school": "International Institute of Information Technology Bangalore",
+      "degree": "PG Diploma, Data Science",
+      "duration": "Jul 2020 – Aug 2021",
+      "location": "Bengaluru, India",
+      "focus": "One-year intensive covering ML algorithms, big data processing, and applied analytics.",
+      "highlights": [
+        "Built capstone projects in predictive analytics and automation.",
+        "Hands-on labs in Python, Spark, and cloud data pipelines."
+      ]
+    },
+    {
+      "school": "Thakur College of Engineering and Technology",
+      "degree": "B.E. Electronics",
+      "duration": "Aug 2016 – Oct 2020",
+      "location": "Mumbai, India",
+      "focus": "Electronics engineering foundation with electives in signal processing and embedded systems.",
+      "highlights": [
+        "Designed final-year project applying analytics to embedded systems.",
+        "Active contributor to IEEE student chapter and campus tech events."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Findability Sciences",
+      "role": "Generative AI Engineer Co-op",
+      "duration": "Aug 2024 – Dec 2024",
+      "location": "Boston, MA",
+      "summary": "Designed and shipped a production-grade legal assistant powered by Amazon Bedrock and LangGraph for bankruptcy intelligence.",
+      "highlights": [
+        "Built multi-agent RAG workflow with hybrid retrieval and reranking, boosting response accuracy by 30%.",
+        "Implemented guardrails for context-aware document synthesis and delivered live demos to stakeholders."
+      ]
+    },
+    {
+      "company": "Purplle.com",
+      "role": "Marketing Data Analyst Intern",
+      "duration": "Dec 2021 – Mar 2022",
+      "location": "Mumbai, India",
+      "summary": "Analyzed pan-India cosmetics sales and marketing performance to guide campaign optimization and resource planning.",
+      "highlights": [
+        "Developed Tableau dashboards and SQL analyses that improved allocation efficiency by 15%.",
+        "Automated reporting for Facebook and Google Ads, delivering near real-time campaign insights."
+      ]
+    }
+  ],
+  "skills": [
+    "Python", "SQL", "Unix Shell", "PyTorch", "TensorFlow", "Scikit-Learn", "Pandas", "LangChain", "LangGraph", "CrewAI", "OpenAI API", "HuggingFace", "Qdrant", "Pydantic", "FastAPI", "Streamlit", "Airflow", "Kafka", "dbt", "Apache Spark", "Databricks", "Snowflake", "AWS", "Docker", "Kubernetes", "Terraform", "Ansible", "CI/CD", "MLflow", "DVC", "Prometheus", "Grafana", "Tableau", "MS Excel"
+  ],
+  "contact_text": "Currently at WPI (Class of ’25) and open to full-time roles, internships, and collaboration in data science, ML engineering, and generative AI.",
+  "socials": [
+    { "label": "GitHub", "href": "https://github.com/tanny1412" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/tanish14/" },
+    { "label": "Medium", "href": "https://medium.com/@tanish.kandivlikar1412" }
+  ],
+  "phone": "+1 401-636-3552"
+}
