@@ -75,7 +75,7 @@
     {
       title: "RAG System for Enterprise Docs",
       description: "Retrieval‑Augmented Generation pipeline with chunking, hybrid search, and domain‑tuned reranking; robust evaluation and guardrails.",
-      tags: ["LLM", "RAG", "VectorDB", "OpenAI"],
+      tags: ["GenAI", "MLOps"],
       tech: ["Python", "LangChain", "FAISS"],
       image: "assets/no-image.svg",
       github: "https://github.com/your-github/rag-enterprise",
@@ -87,7 +87,7 @@
     {
       title: "Demand Forecasting Platform",
       description: "Hierarchical time series forecasts with feature store, model ensembling, and ML monitoring. 18% MAPE improvement.",
-      tags: ["Forecasting", "Time Series"],
+      tags: ["Analytics", "MLOps"],
       tech: ["Python", "Prophet", "LightGBM", "Airflow"],
       image: "assets/no-image.svg",
       github: "https://github.com/your-github/demand-forecasting",
@@ -99,7 +99,7 @@
     {
       title: "Defect Detection (Vision)",
       description: "Transfer learning + active learning loop for industrial defects; achieved 97% F1 on imbalanced dataset.",
-      tags: ["Computer Vision", "ML"],
+      tags: ["Computer Vision", "Deep Learning"],
       tech: ["PyTorch", "FastAPI", "Docker"],
       image: "assets/no-image.svg",
       github: "https://github.com/your-github/defect-detection",
