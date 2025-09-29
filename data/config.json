@@ -54,10 +54,10 @@
   "experience": [
     {
       "company": "Findability Sciences",
-      "role": "Generative AI Engineer Co-op",
+      "role": "Graduate Qualifying Project — Generative AI Engineer",
       "duration": "Aug 2024 – Dec 2024",
       "location": "Boston, MA",
-      "summary": "Designed and shipped a production-grade legal assistant powered by Amazon Bedrock and LangGraph for bankruptcy intelligence.",
+      "summary": "Graduate Qualifying Project with Findability Sciences: designed and shipped a production-grade legal assistant powered by Amazon Bedrock and LangGraph for bankruptcy intelligence.",
       "highlights": [
         "Built multi-agent RAG workflow with hybrid retrieval and reranking, boosting response accuracy by 30%.",
         "Implemented guardrails for context-aware document synthesis and delivered live demos to stakeholders."
